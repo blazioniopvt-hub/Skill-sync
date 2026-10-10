@@ -1,0 +1,454 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillSync - Turn what you learn into what you can prove</title>
+  <meta name="description" content="SkillSync is building a structured path for CS, BCA, and MCA students to practise skills, document real work, and grow beyond coursework." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,450,500,600,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="SkillSync home">
+        <span class="brand-icon" aria-hidden="true">S</span>
+        <span class="brand-name">SkillSync</span>
+        <span class="brand-badge">Alpha</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Site navigation">
+        <a href="#the-problem" class="nav-link">About</a>
+        <a href="#how-it-works" class="nav-link">How it works</a>
+        <a href="#what-students-build" class="nav-link">What you build</a>
+        <a href="#for-institutions" class="nav-link">For institutions</a>
+      </nav>
+      <div class="header-actions">
+        <a href="#explore" class="btn btn-primary btn-sm">Join cohort</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true">
+      <a href="#the-problem" class="mobile-nav-link">About</a>
+      <a href="#how-it-works" class="mobile-nav-link">How it works</a>
+      <a href="#what-students-build" class="mobile-nav-link">What you build</a>
+      <a href="#for-institutions" class="mobile-nav-link">For institutions</a>
+      <a href="#explore" class="btn btn-primary mobile-cta">Join cohort</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">
+            <span class="eyebrow-dot" aria-hidden="true"></span>
+            PRACTICAL SKILLS &middot; VISIBLE PROGRESS
+          </p>
+          <h1 id="hero-heading" class="hero-heading">
+            Turn what you learn into what you can&nbsp;<span class="accent-underline">prove</span>.
+          </h1>
+          <p class="hero-sub">
+            SkillSync is building a structured path for CS, BCA, and MCA students to practise skills, document real work, and grow beyond coursework.
+          </p>
+          <div class="hero-actions">
+            <a href="#explore" class="btn btn-primary btn-lg">Get early access</a>
+            <a href="#how-it-works" class="btn btn-ghost btn-lg">See the four stages</a>
+          </div>
+          <p class="hero-meta">
+            <span class="student-bubbles" aria-hidden="true">
+              <span class="bubble bubble-cs">CS</span>
+              <span class="bubble bubble-bca">BCA</span>
+              <span class="bubble bubble-mca">MCA</span>
+            </span>
+            Built for student developer cohorts &amp; university tracks
+          </p>
+        </div>
+
+        <div class="hero-preview reveal reveal-delay-1" aria-label="Concept preview of the SkillSync student dashboard">
+          <div class="preview-chrome">
+            <div class="preview-topbar">
+              <div class="chrome-dots" aria-hidden="true">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="preview-title-bar">WORKSPACE // PATHWAY-ALPHA</span>
+              <span class="concept-badge">
+                <span class="concept-dot" aria-hidden="true"></span>
+                CONCEPT PREVIEW
+              </span>
+            </div>
+            <div class="preview-card">
+              <div class="collab-cursor" aria-hidden="true">
+                <svg width="12" height="12" viewBox="0 0 16 16" fill="#267A57"><path d="M1 1l4.5 13.5 2.5-5.5 5.5-2.5L1 1z"/></svg>
+                <span class="collab-label">Aryan M. (Reviewing)</span>
+              </div>
+              <div class="profile-row">
+                <div class="profile-left">
+                  <div class="avatar" aria-hidden="true">AM</div>
+                  <div>
+                    <div class="profile-name-row">
+                      <span class="profile-name">Aryan Mehta</span>
+                      <span class="profile-tag">3rd Year BCA</span>
+                    </div>
+                    <p class="profile-track">Systems Track &middot; Distributed Engineering</p>
+                  </div>
+                </div>
+                <span class="cohort-badge">
+                  <span class="cohort-dot" aria-hidden="true"></span>
+                  Cohort: Fall 25
+                </span>
+              </div>
+              <div class="milestone-row">
+                <div class="milestone-top">
+                  <span class="milestone-label">Milestone 3 of 4: Distributed State &amp; Caching <span class="unit-badge">Core Unit</span></span>
+                  <span class="milestone-pct">75% completed</span>
+                </div>
+                <div class="progress-track" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="75 percent completed">
+                  <div class="progress-fill" style="width:75%"></div>
+                </div>
+              </div>
+              <div class="artifact-card">
+                <div class="artifact-header">
+                  <div>
+                    <span class="artifact-eyebrow">ACTIVE EVIDENCE ARTIFACT</span>
+                    <h3 class="artifact-title">Persistent Event Logger with Redis &amp; Go</h3>
+                  </div>
+                  <span class="verified-badge">Verified</span>
+                </div>
+                <p class="artifact-desc">
+                  Commit history with reproducible micro-benchmarks. Documented architectural trade-offs in RFC format with peer review sign-off.
+                </p>
+                <div class="artifact-tags">
+                  <span class="tag">v1.2.0-rc2</span>
+                  <span class="tag">RFC attached</span>
+                  <span class="tag tag-green">2 peer reviews done</span>
+                </div>
+              </div>
+              <div class="next-action">
+                <span>Next &rarr; <strong>Benchmarking concurrency under synthetic load</strong></span>
+                <span class="phase-label">Phase 03b</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE PROBLEM -->
+    <section class="section section-white" id="the-problem" aria-labelledby="problem-heading">
+      <div class="container">
+        <div class="section-intro reveal">
+          <span class="section-eyebrow">THE REALITY OF THE DEGREE GAP</span>
+          <h2 id="problem-heading" class="section-heading">
+            A degree shows what was taught.<br class="desktop-only"> Not what you can build.
+          </h2>
+          <p class="section-sub">
+            Across CS, BCA, and MCA curricula, students spend thousands of hours in lectures and semester exams. Yet generic coursework leaves engineers unable to show individual depth when it matters most.
+          </p>
+        </div>
+        <div class="compare-grid">
+          <article class="compare-card compare-card--neutral reveal">
+            <div class="compare-card-top"></div>
+            <div class="compare-card-header">
+              <span class="compare-label">
+                <span class="status-dot status-dot--neutral" aria-hidden="true"></span>
+                Status Quo
+              </span>
+            </div>
+            <h3 class="compare-title">Coursework alone</h3>
+            <p class="compare-body">
+              Syllabus coverage, exam scores, and generic tutorial repositories that leave evaluators uncertain of individual capability.
+            </p>
+            <ul class="compare-list">
+              <li><span class="cross" aria-hidden="true">X</span> Passive rote memorisation for semester grades</li>
+              <li><span class="cross" aria-hidden="true">X</span> Tutorial clones with no architecture documentation</li>
+              <li><span class="cross" aria-hidden="true">X</span> Zero exposure to real code review or critique</li>
+            </ul>
+            <div class="compare-outcome compare-outcome--neutral">
+              Fragile comprehension during technical evaluations
+            </div>
+          </article>
+          <article class="compare-card compare-card--green reveal reveal-delay-1">
+            <div class="compare-card-top compare-card-top--green"></div>
+            <div class="compare-card-header">
+              <span class="compare-label compare-label--green">
+                <span class="status-dot status-dot--green" aria-hidden="true"></span>
+                Evidence-First Approach
+              </span>
+            </div>
+            <h3 class="compare-title">With SkillSync</h3>
+            <p class="compare-body">
+              Disciplined practice cycles, production-like constraints, documented technical write-ups, and active peer review building verifiable engineering proof.
+            </p>
+            <ul class="compare-list">
+              <li><span class="check" aria-hidden="true">V</span> Iterative systems building with real architectural trade-offs</li>
+              <li><span class="check" aria-hidden="true">V</span> Auditable commit histories and design RFC write-ups</li>
+              <li><span class="check" aria-hidden="true">V</span> Structured peer code reviews that mirror senior software teams</li>
+            </ul>
+            <div class="compare-outcome compare-outcome--green">
+              Transparent proof of hands-on technical capacity
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section-paper" id="how-it-works" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-intro reveal">
+          <span class="section-eyebrow">THE STUDENT JOURNEY</span>
+          <h2 id="how-heading" class="section-heading">Four stages of verified capability</h2>
+          <p class="section-sub">
+            A continuous cycle replacing passive consumption with deliberate building, formal documentation, and peer leadership.
+          </p>
+        </div>
+        <ol class="stages-row" aria-label="The four stages of SkillSync">
+          <li class="stage-item reveal">
+            <div class="stage-number" aria-hidden="true">01</div>
+            <div class="stage-connector" aria-hidden="true"></div>
+            <div class="stage-body">
+              <span class="stage-phase">Input</span>
+              <h3 class="stage-title">Learn</h3>
+              <p class="stage-desc">
+                Develop foundational mental models through focused engineering problems, core documentation, and curated system specifications rather than passive video lectures.
+              </p>
+              <span class="stage-footer">Deep concepts &middot; Stage Alpha</span>
+            </div>
+          </li>
+          <li class="stage-item reveal reveal-delay-1">
+            <div class="stage-number stage-number--green" aria-hidden="true">02</div>
+            <div class="stage-connector" aria-hidden="true"></div>
+            <div class="stage-body">
+              <span class="stage-phase">Execution</span>
+              <h3 class="stage-title">Build &amp; Do</h3>
+              <p class="stage-desc">
+                Implement production-style projects from scratch with intentional constraints: edge cases, unit testing, and deployment fundamentals that create real engineering depth.
+              </p>
+              <span class="stage-footer">Clean codebase &middot; Stage Beta</span>
+            </div>
+          </li>
+          <li class="stage-item reveal reveal-delay-2">
+            <div class="stage-number stage-number--green" aria-hidden="true">03</div>
+            <div class="stage-connector" aria-hidden="true"></div>
+            <div class="stage-body">
+              <span class="stage-phase">Artifact</span>
+              <h3 class="stage-title">Show Evidence</h3>
+              <p class="stage-desc">
+                Synthesise architecture decisions into RFC documents, benchmarks, and commit histories that withstand scrutiny by senior engineers.
+              </p>
+              <span class="stage-footer">Auditable proof &middot; Stage Gamma</span>
+            </div>
+          </li>
+          <li class="stage-item reveal reveal-delay-3">
+            <div class="stage-number stage-number--green" aria-hidden="true">04</div>
+            <div class="stage-body">
+              <span class="stage-phase">Mastery</span>
+              <h3 class="stage-title">Teach &amp; Lead</h3>
+              <p class="stage-desc">
+                Reinforce competence through peer reviews, design walkthroughs, and guiding junior cohort peers through debugging sessions.
+              </p>
+              <span class="stage-footer">Peer leadership &middot; Stage Delta</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- WHAT STUDENTS BUILD -->
+    <section class="section section-white" id="what-students-build" aria-labelledby="build-heading">
+      <div class="container">
+        <div class="section-intro reveal">
+          <span class="section-eyebrow">PORTFOLIO ARTIFACTS</span>
+          <h2 id="build-heading" class="section-heading">Tangible artifacts that speak louder than a resume.</h2>
+          <p class="section-sub">
+            Intended platform capabilities built around transparent proof, technical articulation, and community evaluation.
+          </p>
+        </div>
+        <div class="bento-grid">
+          <article class="bento-card bento-wide reveal">
+            <div class="bento-content-row">
+              <div class="bento-text">
+                <span class="bento-eyebrow">Curriculum Architecture</span>
+                <h3 class="bento-title">Structured Technical Pathways</h3>
+                <p class="bento-body">
+                  Pathways mapped from systems programming to distributed backend architectures. Students solve progressive problem scopes with explicit learning milestones rather than disjointed video tutorials.
+                </p>
+                <div class="hashtag-row">
+                  <span class="hashtag"># Concurrency Primitives</span>
+                  <span class="hashtag"># Consensus Algorithms</span>
+                  <span class="hashtag"># Database Internals</span>
+                </div>
+              </div>
+              <div class="track-preview">
+                <div class="track-header">
+                  <span class="track-name">TRACK: DISTRIBUTED SYSTEMS</span>
+                  <span class="track-progress">6 / 8 UNITS</span>
+                </div>
+                <ul class="track-list" aria-label="Track units">
+                  <li class="track-item track-done"><span class="unit-num">01</span><span>Memory &amp; Allocators</span><span class="unit-status done">DONE</span></li>
+                  <li class="track-item track-done"><span class="unit-num">02</span><span>Raft Consensus Node</span><span class="unit-status done">DONE</span></li>
+                  <li class="track-item track-current"><span class="unit-num unit-num--green">03</span><span>LSM-Tree Key-Value Store</span><span class="unit-status current">CURRENT</span></li>
+                  <li class="track-item track-locked"><span class="unit-num">04</span><span>Gossip Protocol Cluster</span><span class="unit-status locked">LOCKED</span></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+          <article class="bento-card bento-half reveal">
+            <span class="bento-eyebrow">Documentation System</span>
+            <h3 class="bento-title">Documented Artifact Repositories</h3>
+            <p class="bento-body">
+              Structured technical write-ups explaining architectural trade-offs, benchmark datasets, and commit histories moving past blank READMEs to RFC-grade specifications.
+            </p>
+            <div class="rfc-mockup">
+              <div class="rfc-header">
+                <span>rfc-042-cache-invalidation.md</span>
+                <span class="rfc-status">ACCEPTED</span>
+              </div>
+              <div class="rfc-body">
+                <div class="rfc-title"># RFC: Adaptive Replacement Cache (ARC)</div>
+                <div class="rfc-meta">
+                  Target Latency: p99 &lt; 1.4ms at 10k req/s<br/>
+                  Eviction Strategy: Bi-directional frequency list<br/>
+                  Reviewers: @m-patel, @faculty-mentor
+                </div>
+                <div class="code-snippet"><span class="code-kw">type</span> CachePool <span class="code-type">struct</span> {<br/>&nbsp;&nbsp;lruQueue *list.List<br/>&nbsp;&nbsp;lfuQueue *list.List<br/>}</div>
+              </div>
+            </div>
+          </article>
+          <article class="bento-card bento-half reveal reveal-delay-1">
+            <span class="bento-eyebrow">Collaborative Rigour</span>
+            <h3 class="bento-title">Peer Leadership &amp; Code Review Cycles</h3>
+            <p class="bento-body">
+              Structured peer feedback sessions that develop clear engineering communication. Cohort members evaluate edge cases, suggest algorithmic refinements, and lead code walkthroughs.
+            </p>
+            <div class="pr-mockup">
+              <div class="pr-header">
+                <div class="pr-left">
+                  <span class="pr-title">PR #42: Worker Pool Backpressure</span>
+                </div>
+                <span class="pr-status">APPROVED</span>
+              </div>
+              <blockquote class="pr-comment">
+                Good handling of context cancellations. Consider benchmarking channel buffer depth if throughput spikes past 5k req/s to prevent goroutine lock contention.
+              </blockquote>
+              <div class="pr-reviewer">
+                <div class="reviewer-avatar" aria-hidden="true">RD</div>
+                <span class="reviewer-name">Rohan D.</span>
+                <span class="reviewer-role">Senior Peer Reviewer</span>
+                <span class="review-time">2h ago</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR INSTITUTIONS -->
+    <section class="section section-paper" id="for-institutions" aria-labelledby="institutions-heading">
+      <div class="container">
+        <div class="institutions-card reveal">
+          <div class="institutions-intro">
+            <span class="section-eyebrow">ACADEMIC COLLABORATION</span>
+            <h2 id="institutions-heading" class="section-heading">
+              Helping colleges make student capability transparent.
+            </h2>
+            <p class="section-sub">
+              We collaborate with computer science departments, BCA/MCA faculty, and placement cells to structure practical lab learning. SkillSync provides mentors genuine visibility into project progression, enabling institutions to understand cohort readiness without administrative friction.
+            </p>
+          </div>
+          <div class="institutions-pillars">
+            <div class="pillar">
+              <span class="pillar-num">01 / VISIBILITY</span>
+              <h3 class="pillar-title">Transparent cohort progression</h3>
+              <p class="pillar-body">
+                Genuine insight into each student's milestones, pull requests, and verified technical documentation across active semesters.
+              </p>
+            </div>
+            <div class="pillar">
+              <span class="pillar-num">02 / STANDARDISATION</span>
+              <h3 class="pillar-title">Standardised practical rubrics</h3>
+              <p class="pillar-body">
+                Objective, industry-aligned criteria for evaluating code architecture, test coverage, and documentation depth consistently applied across the cohort.
+              </p>
+            </div>
+            <div class="pillar">
+              <span class="pillar-num">03 / CLARITY</span>
+              <h3 class="pillar-title">Clear student differentiation</h3>
+              <p class="pillar-body">
+                Engineering portfolios that give placement coordinators immediate, evidence-backed understanding of where each student stands.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING CTA -->
+    <section class="section section-white cta-section" id="explore" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div class="cta-icon" aria-hidden="true">S</div>
+          <h2 id="cta-heading" class="cta-heading">
+            Ready to bridge the gap between learning and doing?
+          </h2>
+          <p class="cta-sub">
+            SkillSync is partnering with early student cohorts and faculty mentors across CS, BCA, and MCA programmes. Register your interest for the next cycle.
+          </p>
+          <form class="interest-form" id="interest-form" novalidate>
+            <label class="sr-only" for="cohort-email">Email address</label>
+            <input
+              type="email"
+              id="cohort-email"
+              name="email"
+              placeholder="Your institutional or student email"
+              autocomplete="email"
+              required
+              aria-required="true"
+              aria-describedby="email-error cohort-success"
+            />
+            <button type="submit" class="btn btn-primary btn-lg">Submit interest</button>
+          </form>
+          <p id="email-error" class="form-error" role="alert" aria-live="polite" hidden></p>
+          <div id="cohort-success" class="form-success" role="status" aria-live="polite" hidden>
+            Interest noted. We will reach out when the next cohort opens.
+          </div>
+          <p class="cta-footnote">Early-stage initiative &middot; Student-centric &middot; No spam, ever.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="brand-icon brand-icon--sm" aria-hidden="true">S</span>
+          <span class="footer-brand-name">SkillSync</span>
+        </div>
+        <p class="footer-tagline">Practical skills. Visible progress. For CS, BCA, and MCA students.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#the-problem" class="footer-link">About</a>
+        <a href="#how-it-works" class="footer-link">How it works</a>
+        <a href="#what-students-build" class="footer-link">What you build</a>
+        <a href="#for-institutions" class="footer-link">For institutions</a>
+        <a href="#explore" class="footer-link">Join cohort</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>2025 SkillSync. An early-stage initiative for practical student learning.</span>
+        <span>Crafted for verifiable developer growth.</span>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
